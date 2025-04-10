@@ -74,4 +74,38 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.band-button {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente o botão */
+    text-align: center;
+}
+.band-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+.band-button a:hover {
+    background-color: #2980b9;
+}
+.band-button a:active {
+    background-color: #1abc9c;
+}
+.band-button a:focus {
+    outline: none;
+    box-shadow: 0 0 5px #2980b9;
+}
+.band-button a:visited {
+    color: white;
+}
+.band-button a:visited:hover {
+    color: white;
+}
+
+
+
 

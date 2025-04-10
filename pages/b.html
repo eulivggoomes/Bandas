@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela de Fotos</title>
+    <title>Tabela de Fotos Guns</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
         table {
-            width: 100%;
+            width: 90%;
             border-collapse: collapse;
             margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
         }
         td {
             border: 1px solid #ddd;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
         }
         img {
             width: 150px;
             height: 150px;
             border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
-    <h2 style="text-align: center;">Tabela com Fotos</h2>
+    <h2>Tabela com fotos dos Beatles</h2>
     <table>
         <tr>
             <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 1"></td>
             <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 2"></td>
-         
+            <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 6"></td>
+            <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg"alt="Foto 7"></td>
         </tr>
         <tr>
             <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 4"></td>
             <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 5"></td>
-          
+            <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 8"></td>
+            <td><img src="https://i.etsystatic.com/34327129/r/il/6fb10d/3683486012/il_794xN.3683486012_r4yp.jpg" alt="Foto 9"></td>
         </tr>
     </table>
 </body>
